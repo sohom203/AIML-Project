@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src= "img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+             </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+    
+    </section>
+
+<!----------Courses----------->
+
+<section class="course">
+    <h1>Courses We Offer</h1>
+    <p>University is a globally engaged institution with active partnership with more than 220 leading universities around the globe. Our relations with institutions, government agencies and organisations in study, research and service provide faculty and students access to world-class institutions, experiences and resources.</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Under Graduate (UG)</h3>
+            <p>Welcome to this course</p>
+        </div>
+        <div class="course-col">
+            <h3>Post Graduate (PG)</h3>
+            <p>Welcome to this course</p>
+        </div>
+        <div class="course-col">
+            <h3>PhD</h3>
+            <p>Welcome to this course</p>
+        </div>
+
+    </div>
+
+</section>
+
+<!-------------facilities------------->
+
+<section class="facilities">
+    <h1>Facilities</h1>
+    <p>A thriving community of creative and accomplished people from around the world.</p>
+
+    <div class="row">
+        <div class="facilities-col">
+            <img src="img/library.png">
+            <h3>World Class Library</h3>
+            <p>It has specialized collections of books, journals & other resources in Mathematics & Sciences, Engineering and Technology, Biotechnology, Humanities, Social Sciences and Management ranging from printed books, e-books, back volumes and CDs\DVDs. The Central Library subscribes to national and international journals in print and e-Journals.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="img/basketball.png">
+            <h3>Largest Play Ground</h3>
+            <p>Sports Community achieve a healthier lifestyle while coping with the highly demanding study environment, one needs to be healthy, both emotionally and physically.</p>
+        </div>
+        <div class="facilities-col">
+            <img src="img/cafeteria.png">
+            <h3>Tasty and Healthy Food</h3>
+            <p>Healthy, wholesome food and a variety of dining options are available to the hostel students. Given the great diversity of tastes and cultures, students have access to multi-cuisine catering services that serves vegetarian, non-vegetarian, Indian and International food.</p>
+        </div>
+    </div>
+
+</section>
+
+
+<!--------Footer---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>A place for learning, discovery, innovation, expression and discourse.</p>
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-linkedin" ></i>
+        <i class="fa fa-instagram" ></i>
+   
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Navodayan</p>
+</section>
+
+<!-------JavaScript for Toggle Menu-------------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right= "0";
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px";
+        }
+    
+    </script>
+
+<script>
+    window.chatbaseConfig = {
+      chatbotId: "XG1kQ01SQCLL6KsyRhev1",
+    }
+  </script>
+  <script
+    src="https://www.chatbase.co/embed.min.js"
+    id="XG1kQ01SQCLL6KsyRhev1"
+    defer>
+  </script>
+
+
+</body>
+</html>

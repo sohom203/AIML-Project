@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Easy Tutorials</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src= "img/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+               </ul>
+             </div> 
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Program for 2022</h1>
+    
+    </section>
+
+<!----------Blog page contents----------->
+
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="img/certificate.jpg">
+            <h2>Our Certificate & Online Programs For 2022</h2>
+            <p>PROGRAMMES OFFERED
+            </p>
+            <br>
+            <p>Bachelor of Technology (BTech) is a professional undergraduate engineering degree programme awarded to candidates after they complete four years of study in the field. Engineering is one of the most popular courses in India and there are many institutes that offer the course to aspiring students.</p>
+            <br>
+            <p>MTech is a professional postgraduate engineering master degree programme awarded to candidates after completion of two years of study in the discipline of engineering. This degree is predicated in a specific branch of engineering.
+
+                In India, the ME/MTech degree is offered across various specializations. These specializations include Civil Engineering, Computer Science and Engineering, Chemical Engineering, Electrical Engineering, VLSI, Mechanical Engineering, Electronics and Communication Engineering etc.</p>
+            <br>
+            <p>A PhD is a globally recognized postgraduate academic degree awarded by universities and higher education institutions to a candidate who has submitted a thesis or dissertation, based on extensive and original research in their chosen field. The specificities of PhD degrees vary depending on where you are and what subject you’re studying.</p>
+            <div class="comment-box">
+                <h3>Leave a comment</h3>
+                    <form class="comment-form">
+                        <input type="text" placeholder="Enter Name">
+                        <input type="email" placeholder="Enter Email">
+                        <textarea rows="5"  placeholder="Your Comment"></textarea>
+                        <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+                    </form>
+            </div>
+        
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Computer Science and Engineering</span> 
+                <span>21</span>
+            </div>
+            <div>
+                <span>Electrical and Electronics Engineering</span> 
+                <span>28</span>
+            </div>
+            <div>
+                <span>Mechanical Engineering</span> 
+                <span>15</span>
+            </div>
+            <div>
+                <span>Civil Engineering</span> 
+                <span>42</span>
+            </div>
+            <div>
+                <span>Electrical and Communication Engineering</span> 
+                <span>34</span>
+            </div>
+            <div>
+                <span>Engineering in Nano-Technology</span> 
+                <span>27</span>
+            </div>
+            <div>
+                <span>Engineering in Information Technology</span> 
+                <span>38</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--------Footer---------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>A place for learning, discovery, innovation, expression and discourse.</p>
+    <div class="icons">
+        <i class="fa fa-facebook" ></i>
+        <i class="fa fa-twitter" ></i>
+        <i class="fa fa-linkedin" ></i>
+        <i class="fa fa-instagram" ></i>
+   
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Navodayan</p>
+</section>
+
+<!-------JavaScript for Toggle Menu-------------->
+    <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right= "0";
+        }
+        function hideMenu(){
+            navLinks.style.right= "-200px";
+        }
+    
+    </script>
+
+
+<!----->
+<script>
+    window.chatbaseConfig = {
+      chatbotId: "XG1kQ01SQCLL6KsyRhev1",
+    }
+  </script>
+  <script
+    src="https://www.chatbase.co/embed.min.js"
+    id="XG1kQ01SQCLL6KsyRhev1"
+    defer>
+  </script>
+
+
+</body>
+</html>
